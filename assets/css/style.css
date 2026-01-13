@@ -1,0 +1,78 @@
+body {
+  background-color: #dac2a6;
+  padding: 25% 15% 15% 15%;
+  width: 70%;
+  max-width: 800px;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #291f14;
+  text-align: center;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic img {
+  height: 120px;
+  border-radius: 100%;
+  border: solid 3px #291f14;
+}
+
+.bio {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: small;
+  max-width: 500px;
+}
+
+.social-links {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* icons */
+
+i {
+  font-size: 0.9em;
+  color: currentColor;
+  vertical-align: middle;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6em;
+  height: 2.6em;
+}
+
+.social-link i {
+  font-size: 2.5em;
+  line-height: 1;
+}
+
+/* links */
+
+.page-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-link input,
+.form-link button {
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #291f14;
+  color: #dac2a6;
+}
