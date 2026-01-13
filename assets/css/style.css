@@ -1,13 +1,23 @@
 body {
   background-color: #dac2a6;
-  padding: 200px 0 0 0;
-  width: 100%;
+  padding: 18vh 0 0 0;
+  width: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #291f14;
   text-align: center;
+}
+
+h1 {
+  margin-top: 0;
 }
 
 .page-header {
@@ -68,10 +78,10 @@ i {
 .form-link input,
 .form-link button {
   cursor: pointer;
-  width: 100%;
+  width: 80%;
   max-width: 400px;
-  padding: 8px;
-  border-radius: 10px;
+  padding: 12px;
+  border-radius: 15px;
   background-color: #291f14;
-  color: #dac2a6;
+  color: #f1ece6;
 }
